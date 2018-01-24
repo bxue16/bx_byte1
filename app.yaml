@@ -1,3 +1,4 @@
+
 # This file specifies your Python application's runtime configuration
 # including URL routing, versions, static file uploads, etc. See
 # https://developers.google.com/appengine/docs/python/config/appconfig
@@ -29,3 +30,5 @@ libraries:
   version: latest
 - name: webapp2
   version: latest
+- name: flask
+  version: 0.12
